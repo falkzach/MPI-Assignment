@@ -1,17 +1,17 @@
-#MPI Assignment
+# MPI Assignment
 
-##mpiavg.c
+## mpiavg.c
 
-###Compile 
+### Compile 
   mpicc -o mpiavg -lm mpiavg.c
 
-###Execute
+### Execute
   mpirun -np 16 ./mpiavg data.txt 7 9
 
-##pingpong.c
+## pingpong.c
 
-###Compile
+### Compile
   mpicc -o pingpong pingpong.c 
 
-###Execute
+### Execute
   mpirun -np 2 ./pingpong
